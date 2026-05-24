@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int mayor36(int numero);
+int mayor36y50(int numero);
 
 int main()
 {
@@ -16,7 +16,7 @@ int main()
         cout << "Ingrese el numero: ";
         cin >> numero[i];
         suma_total = suma_total + numero[i];
-        resultadotote = mayor36(numero[i]);
+        resultadotote = mayor36y50(numero[i]);
         if(resultadotote == 1)
         {
             mayorq36++;
@@ -53,7 +53,7 @@ int main()
     return 0;
 }
 
-int mayor36(int numero)
+int mayor36y50(int numero)
     {
     int resultado = 3;
     if(numero <= 36)
