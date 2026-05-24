@@ -4,7 +4,8 @@ using namespace std;
 int cargadordevector(int vectorr[], int cantidadd);
 int ordenado(int vectorr[], int cantidadd);
 
-int main() {
+int main()
+{
     int resultado = 2;
     int cantidad = 10;
     int vectorsito[cantidad];
